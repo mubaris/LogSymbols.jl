@@ -9,6 +9,6 @@ end
 symbols = Dict("info" => print_rbg(0, 0, 255, "ℹ"),
                 "success" => print_rbg(0, 255, 0, "✔"),
                 "warning" => print_rbg(255, 255, 0, "⚠"),
-                "error" => print_rbg(255, 0, 0), "✖")
+                "error" => print_rbg(255, 0, 0, "✖"))
 
 end # module
