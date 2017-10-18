@@ -2,7 +2,7 @@ module LogSymbols
 
 # package code goes here
 
-function print_rbg()
+function print_rbg(r, g, b, t)
     println("\e[1m\e[38;2;$r;$g;$b;249m",t)
 end
 
